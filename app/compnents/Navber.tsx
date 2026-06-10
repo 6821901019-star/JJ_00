@@ -13,7 +13,19 @@ export default function Navbar() {
             </li>       
             <li>
                 <Link href="/contact" className="hover:text-gray-400">Contact</Link>
+            </li>
+                    
+            <li>
+                <Link href="/login" className="hover:text-gray-400">login</Link>
             </li>   
+
+            <li>
+                <Link href="/register" className="hover:text-gray-400">register</Link>
+            </li>
+
+            <li>
+                <Link href="/forgot-password" className="hover:text-gray-400">forgot-password</Link>
+            </li>
         </ul>
     </nav>
   );
