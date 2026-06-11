@@ -7,7 +7,6 @@ export default function Home() {
     Hello
     <h2>ยินดีตอนรับสู่เว็บไซต์</h2>
     <p>นางสาว เจณสุฎาณ์</p>
-    <Footer />
     </div>
   );
 }
