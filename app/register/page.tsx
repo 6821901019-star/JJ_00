@@ -1,9 +1,9 @@
-"use  cllient";
+"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function register() {
+export default function Register() {
 
   const router = useRouter();
 
@@ -22,6 +22,7 @@ export default function register() {
     });
 
     if (res.ok) {
+      alert("Register successful");
       router.push("/login");
     } else {
       alert("Register failed");
@@ -32,7 +33,7 @@ export default function register() {
   return (
 
     <div className="auth-page">
-      <form className="auth-card" onSubmit={handleSubmit}>
+      <form className="auth-card"  onSubmit={handleSubmit}>
         <h2> สมัครสมาชิก </h2>
         <input
           placeholder="Name"
