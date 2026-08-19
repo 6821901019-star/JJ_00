@@ -70,7 +70,7 @@ export default function Navbar() {
                     {user?.role === "admin" && (
                         <>
                             <li>
-                                <Link href="/admin/users">Admin</Link>
+                                <Link href="/admin/blogs">เพิ่มบทความ</Link>
                             </li>
                             <li>
                                 <Link href="/admin/categories">Catrgory</Link>
