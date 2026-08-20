@@ -38,7 +38,7 @@ export async function POST(request: Request) {
 
     if (!title || !slug) {
       return NextResponse.json(
-        { message: "กรุณากรอกชื่อและ slug" },
+        { message: "กรุณากรอกหัวเรื่องและ slug" },
         { status: 400 }
       );
     }
