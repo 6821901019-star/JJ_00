@@ -1,4 +1,4 @@
-import CategoryForm from "@/app/compnents/CategoryForm";
+import CategoryForm from "@/compnents/CategoryForm";
 
 export default function CategoryPage(){
     return(

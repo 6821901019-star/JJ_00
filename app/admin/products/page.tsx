@@ -1,4 +1,4 @@
-import ProductForm from "@/app/compnents/ProductForm";
+import ProductForm from "@/compnents/ProductForm";
 
 export default function ProductPage(){
     return(

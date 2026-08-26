@@ -4,10 +4,9 @@ const BlogSchema = new mongoose.Schema(
   {
     title: String,
     slug: String,
-    content: String,
+    image: String,
   },
   { timestamps: true }
 );
 
-export default mongoose.models.Blog ||
-mongoose.model("Blog", BlogSchema);
+export default mongoose.models.Blog || mongoose.model("Blog", BlogSchema);
