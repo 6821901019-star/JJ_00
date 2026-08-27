@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Footer from "../compnents/Footer";
-import BlogsCard from "@/compnents/BlogCard";
+import Footer from "../components/Footer";
+import BlogsCard from "@/components/BlogsCard";
 
 export default function Home() {
   return (
@@ -9,7 +9,6 @@ export default function Home() {
     Hello
     <h2>ยินดีตอนรับสู่เว็บไซต์</h2>
     <p>โดย นางสาว เจณสุฎาณ์</p>
-    <BlogsCard/>
 
     </div>
   );

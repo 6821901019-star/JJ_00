@@ -1,4 +1,4 @@
-import BlogsCard from "@/compnents/BlogCard";
+import BlogsCard from "@/components/BlogsCard";
 
 
 
