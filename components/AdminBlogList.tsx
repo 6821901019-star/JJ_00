@@ -3,7 +3,7 @@
 import { useState } from "react";
 import BlogCard, {
   type BlogCardData,
-} from "@/components/BlogsCard";
+} from "@/components/BlogCard";
 
 type AdminBlogListProps = {
   initialBlogs: BlogCardData[];

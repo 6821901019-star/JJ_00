@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
-import BlogsCard from "@/components/BlogsCard";
+import BlogsCard from "@/components/BlogCard";
 
 export default function Home() {
   return (
